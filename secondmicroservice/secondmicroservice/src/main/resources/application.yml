@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: secondservice
+server:
+  port: 9092
+
+eureka:
+ client:
+   serviceUrl:
+     defaultZone=http://localhost:8000/eureka
+  
+   
